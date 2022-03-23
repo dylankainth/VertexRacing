@@ -1,4 +1,5 @@
 # VertexRacing
+The website for Vertex Racing, The F1 in Schools Professional Class Team.
 
 ## Build Setup
 
