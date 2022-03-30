@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow bg-light">
+  <div class="shadow-sm bg-white">
     <header
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 container"
     >
@@ -28,10 +28,14 @@
           >
         </li>
         <li>
-          <nuxt-link to="/" class="nav-link px-3 link-dark">ABOUT US</nuxt-link>
+          <nuxt-link to="/about" class="nav-link px-3 link-dark"
+            >ABOUT US</nuxt-link
+          >
         </li>
         <li>
-          <nuxt-link to="/" class="nav-link px-3 link-dark">CONTACT</nuxt-link>
+          <nuxt-link to="/contact" class="nav-link px-3 link-dark"
+            >CONTACT</nuxt-link
+          >
         </li>
       </ul>
     </header>

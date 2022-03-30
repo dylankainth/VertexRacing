@@ -4,9 +4,17 @@
     <main>
       <Nuxt />
     </main>
-    <!-- <UtilsFooter /> -->
+    <UtilsFooter />
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    AOS.init({})
+  },
+}
+</script>
 
 <style scoped>
 * {

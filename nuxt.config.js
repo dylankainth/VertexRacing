@@ -23,6 +23,7 @@ export default {
           'sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3',
         crossorigin: 'anonymous',
       },
+      { href: 'https://unpkg.com/aos@2.3.1/dist/aos.css', rel: 'stylesheet' },
     ],
     script: [
       {
@@ -31,6 +32,7 @@ export default {
           'sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p',
         crossorigin: 'anonymous',
       },
+      { src: 'https://unpkg.com/aos@2.3.1/dist/aos.js' },
     ],
   },
 
@@ -38,7 +40,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/listeners.client.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -57,8 +59,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  
-  target: "static",
+
+  target: 'static',
 
   googleFonts: {
     families: {
