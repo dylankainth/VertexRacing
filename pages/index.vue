@@ -7,7 +7,7 @@
 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-9">
+        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-left">
           <img
             src="~/assets/vertexbanner.PNG"
             class="d-block mx-lg-auto img-fluid"
@@ -17,7 +17,7 @@
             loading="lazy"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-right">
           <h1 class="display-3 fw-bold lh-1 mb-3">Vertex Racing</h1>
           <p class="lead">
             We are Vertex, <br />
@@ -36,7 +36,7 @@
       <img class="mover" src="~/assets/vertex2d.PNG" />
     </div>
 
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
       <h1 class="display-5 fw-bold">
         An F1 in Schools Professional Class Team
       </h1>
@@ -57,7 +57,11 @@
       </div>
     </div>
 
-    <div class="container px-4 py-5 marketing" id="featured-3">
+    <div
+      class="container px-4 py-5 marketing"
+      id="featured-3"
+      data-aos="zoom-in-up"
+    >
       <h2 class="pb-2 border-bottom">Our Values</h2>
       <div class="row pt-4">
         <div class="col-lg-4">
@@ -96,7 +100,7 @@
       </div>
     </div>
 
-    <div class="px-4 pt-5 my-5 text-center">
+    <div class="px-4 pt-5 my-5 text-center" data-aos="zoom-in-up">
       <h1 class="display-4 fw-bold">Our Success</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">
@@ -119,7 +123,11 @@
       </div>
     </div>
 
-    <div class="container px-4 py-5 marketing" id="featured-3">
+    <div
+      class="container px-4 py-5 marketing"
+      id="featured-3"
+      data-aos="zoom-in-up"
+    >
       <h2 class="pb-2 border-bottom">Our Sponsors</h2>
       <div class="row pt-4">
         <div class="col-lg-6">
@@ -173,7 +181,7 @@ export default {
       //car.style.left = scrollPercent * window.innerWidth + 'px'
 
       car.style.left =
-        windowWidth - scrollPercent * window.innerWidth * 0.6 + 'px'
+        windowWidth - scrollPercent * window.innerWidth * 0.9 + 'px'
       //console.log(car.style.left)
     })
 

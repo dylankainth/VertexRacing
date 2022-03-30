@@ -2,11 +2,11 @@
   <div id="app">
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-left">
           <h1 class="display-3 fw-bold lh-1 mb-3">Contact</h1>
           <p class="lead">Contact the team</p>
         </div>
-        <div class="col-10 col-sm-8 col-lg-9">
+        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-right">
           <img
             src="~/assets/contactpage.PNG"
             class="d-block mx-lg-auto img-fluid"

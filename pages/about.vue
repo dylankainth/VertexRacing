@@ -2,11 +2,11 @@
   <div id="app">
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-left">
           <h1 class="display-3 fw-bold lh-1 mb-3">About</h1>
           <p class="lead">About the team</p>
         </div>
-        <div class="col-10 col-sm-8 col-lg-9">
+        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-right">
           <img
             src="~/assets/aboutpage.PNG"
             class="d-block mx-lg-auto img-fluid"
@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
       <h1 class="display-6 fw-bold">
         A Team of Motorsport, Engineering, Designing and Business Enthusiasts
       </h1>
@@ -32,7 +32,11 @@
       </div>
     </div>
 
-    <div class="container px-4 py-5 marketing" id="featured-3">
+    <div
+      class="container px-4 py-5 marketing"
+      id="featured-3"
+      data-aos="zoom-in-up"
+    >
       <h2 class="pb-2 border-bottom">Meet the team</h2>
       <div class="row pt-4">
         <div class="col-lg-4">

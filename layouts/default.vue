@@ -8,16 +8,17 @@
   </div>
 </template>
 
-<script>
-export default {
-  mounted() {
-    AOS.init({})
-  },
-}
-</script>
-
 <style scoped>
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+.home-enter-active,
+.home-leave-active {
+  transition: opacity 0.5s;
+}
+.home-enter,
+.home-leave-active {
+  opacity: 0;
 }
 </style>
