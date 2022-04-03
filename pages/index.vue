@@ -137,6 +137,7 @@
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
         <!-- /.col-lg-4 -->
+        <!--
         <div class="col-lg-6">
           <a href="https://heusinkveld.com/">
             <img src="~/assets/heu_logo_fc-1.webp" />
@@ -145,6 +146,7 @@
         </div>
         <!-- /.col-lg-4 -->
       </div>
+      -->
     </div>
   </div>
 </template>
