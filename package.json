@@ -16,7 +16,7 @@
     "gsap": "^3.10.0",
     "lodash-es": "^4.17.21",
     "nuxt": "^2.15.7",
-    "three": "^0.139.0",
+    "three": "^0.139.2",
     "three-obj-mtl-loader": "^1.0.3",
     "touch-position": "^2.0.0"
   },

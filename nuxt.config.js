@@ -70,6 +70,9 @@ export default {
   build: {},
 
   target: 'static',
+  build: {
+    transpile: ['three'],
+  },
 
   googleFonts: {
     families: {
