@@ -38,10 +38,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '~/plugins/listeners.client.js',
-    { src: '@/plugins/aos', mode: 'client' },
-  ],
+  plugins: [{ src: '@/plugins/aos', mode: 'client' }],
 
   purgeCSS: {
     whitelist: [
