@@ -1,4 +1,8 @@
 <template>
+  <div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top"></footer>
+  </div>
+  <!--
   <div class="container">
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
@@ -95,5 +99,5 @@
         </div>
       </div>
     </footer>
-  </div>
+  </div>-->
 </template>

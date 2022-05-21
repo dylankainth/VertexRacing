@@ -19,16 +19,18 @@
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
-      <h1 class="display-6 fw-bold">
-        A Team of Motorsport, Engineering, Designing and Business Enthusiasts
-      </h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Vertex Racing was founded in 2020 with the purpose of taking part in
-          the 2021 F1 in schools competition, the team is made up of five
-          members.
-        </p>
+    <div class="container">
+      <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
+        <h1 class="display-6 fw-bold">
+          A Team of Motorsport, Engineering, Designing and Business Enthusiasts
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Vertex Racing was founded in 2020 with the purpose of taking part in
+            the 2021 F1 in schools competition, the team is made up of five
+            members.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -39,18 +41,35 @@
     >
       <h2 class="pb-2 border-bottom">Meet the team</h2>
       <div class="row pt-4">
-        <div class="col-lg-4">
+        <div class="col-lg-4" v-for="member in members">
           <img
-            src="~/assets/faces/june.png"
+            :src="require(`~/assets/faces/${member.image}`)"
             class="img rounded-circle face"
             alt="..."
           />
 
-          <h2 class="pt-3">June</h2>
+          <h2 class="pt-3">{{ member.name }}</h2>
           <p>
-            June is from South Korean student with a passion for Medicine and
-            essay writing.
-            <!-- Therefore, he joined the team to transfer his research and
+            {{ member.shortDescriptor }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      members: [
+        {
+          name: 'June',
+          image: 'june.png',
+          shortDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing.`,
+          longDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing. Therefore, he joined the team to transfer his research and
             persuasive skills to the benefit of Vertex Racing. He leads, manages
             and organises the team to all it to achieve its goals. He is also in
             charge of the production of the team portfolios (Enterprise and
@@ -58,69 +77,73 @@
             InDesign, as well as the maintenance of the company email and
             website. When he has spare time, June also runs fluid simulations of
             the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.-->
-          </p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img
-            src="~/assets/faces/dylan.png"
-            class="img rounded-circle face"
-            alt="..."
-          />
-
-          <h2 class="pt-3">Dylan</h2>
-          <p>Server guy...</p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img
-            src="~/assets/faces/vincent.png"
-            class="img rounded-circle face"
-            alt="..."
-          />
-
-          <h2 class="pt-3">Vincent</h2>
-          <p>AI guy...</p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img
-            src="~/assets/faces/justin.png"
-            class="img rounded-circle face"
-            alt="..."
-          />
-
-          <h2 class="pt-3">Justin</h2>
-          <p>Mechanical guy...</p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg
-            class="bd-placeholder-img img rounded-circle face"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-          </svg>
-
-          <h2 class="pt-3">Andrew</h2>
-          <p>Rugby guy...</p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-      </div>
-    </div>
-  </div>
-</template>
-
-<script></script>
+            performance.`,
+        },
+        {
+          name: 'Dylan',
+          image: 'dylan.png',
+          shortDescriptor: `Dylan is a tech enthusiast from London, UK; In his free time, he enjoys microelectronics and programming.`,
+          longDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing. Therefore, he joined the team to transfer his research and
+            persuasive skills to the benefit of Vertex Racing. He leads, manages
+            and organises the team to all it to achieve its goals. He is also in
+            charge of the production of the team portfolios (Enterprise and
+            Research & Development) and pit display on Adobe Illustrator and
+            InDesign, as well as the maintenance of the company email and
+            website. When he has spare time, June also runs fluid simulations of
+            the car on Solidworks to help Justin maximise the car aerodynamic
+            performance.`,
+        },
+        {
+          name: 'Vincent',
+          image: 'vincent.png',
+          shortDescriptor: `Vincent is easily charmed by everything AI...`,
+          longDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing. Therefore, he joined the team to transfer his research and
+            persuasive skills to the benefit of Vertex Racing. He leads, manages
+            and organises the team to all it to achieve its goals. He is also in
+            charge of the production of the team portfolios (Enterprise and
+            Research & Development) and pit display on Adobe Illustrator and
+            InDesign, as well as the maintenance of the company email and
+            website. When he has spare time, June also runs fluid simulations of
+            the car on Solidworks to help Justin maximise the car aerodynamic
+            performance.`,
+        },
+        {
+          name: 'Andrew',
+          image: 'andrew.png',
+          shortDescriptor: `Andrew is awesome`,
+          longDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing. Therefore, he joined the team to transfer his research and
+            persuasive skills to the benefit of Vertex Racing. He leads, manages
+            and organises the team to all it to achieve its goals. He is also in
+            charge of the production of the team portfolios (Enterprise and
+            Research & Development) and pit display on Adobe Illustrator and
+            InDesign, as well as the maintenance of the company email and
+            website. When he has spare time, June also runs fluid simulations of
+            the car on Solidworks to help Justin maximise the car aerodynamic
+            performance.`,
+        },
+        {
+          name: 'Justin',
+          image: 'justin.png',
+          shortDescriptor: `justin sits behind me in compski`,
+          longDescriptor: `June is from South Korean student with a passion for Medicine and
+            essay writing. Therefore, he joined the team to transfer his research and
+            persuasive skills to the benefit of Vertex Racing. He leads, manages
+            and organises the team to all it to achieve its goals. He is also in
+            charge of the production of the team portfolios (Enterprise and
+            Research & Development) and pit display on Adobe Illustrator and
+            InDesign, as well as the maintenance of the company email and
+            website. When he has spare time, June also runs fluid simulations of
+            the car on Solidworks to help Justin maximise the car aerodynamic
+            performance.`,
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style>
 html {
@@ -180,6 +203,6 @@ html {
 }
 
 .face {
-  width: 100%;
+  width: 25vw;
 }
 </style>

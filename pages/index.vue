@@ -47,7 +47,11 @@
           developing a CAM machined foam car.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <nuxt-link type="button" class="btn btn-primary btn-lg px-4 gap-3" to="about">
+          <nuxt-link
+            type="button"
+            class="btn btn-primary btn-lg px-4 gap-3"
+            to="about"
+          >
             Meet the team
           </nuxt-link>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">
@@ -72,7 +76,6 @@
             This is about momentum. All our intrigue and questions overlap as
             one. How can we push the speed limit?
           </p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -83,7 +86,6 @@
             This is about fun. We all love F1. We love coffee ☕. We love the
             team. And most importantly, we love the Car.
           </p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -94,7 +96,6 @@
             This is about perfection. We strive to make every aspect of our
             design contemplated and unique.
           </p>
-          <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
         <!-- /.col-lg-4 -->
       </div>
