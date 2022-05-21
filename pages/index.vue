@@ -136,17 +136,7 @@
           </a>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
-        <!-- /.col-lg-4 -->
-        <!--
-        <div class="col-lg-6">
-          <a href="https://heusinkveld.com/">
-            <img src="~/assets/heu_logo_fc-1.webp" />
-          </a>
-          <h3 class="pt-3">Silver Sponsor</h3>
-        </div>
-        <!-- /.col-lg-4 -->
       </div>
-      -->
     </div>
   </div>
 </template>
@@ -173,10 +163,13 @@ export default {
     var scrollArea = windowHeight
     var car = document.getElementById('car')
 
+    car.style.left =
+      windowWidth - 0.025755879059350503 * window.innerWidth * 0.9 + 'px'
+
     // update position of square 1 and square 2 when scroll event fires.
     window.addEventListener('scroll', function () {
       var scrollTop = window.pageYOffset || window.scrollTop
-      var scrollPercent = scrollTop / scrollArea || 0
+      var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132
 
       console.log(scrollPercent)
 
