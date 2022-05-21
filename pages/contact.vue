@@ -24,17 +24,12 @@
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">
           Don’t hesitate to reach out with the contact information below, or
-          send a message using the form, whether you would like to contact about
-          prospective sponsorship, general questions we would love to hear from
-          you!
+          send a message using the form.
+          <br />
+          <br />
+          Whether you would like to contact about prospective sponsorship or
+          even general questions, we would love to hear from you!
         </p>
-      </div>
-    </div>
-
-    <div class="container px-4 py-5 marketing" id="featured-3">
-      <h2 class="pb-2 border-bottom">From our socials</h2>
-      <div class="row pt-4">
-        <iframe src="https://instagram.com/vertexracingf1"></iframe>
       </div>
     </div>
 
@@ -57,10 +52,37 @@
         </iframe>
       </div>
     </div>
+
+    <div class="container px-4 py-5 marketing" id="featured-3">
+      <h2 class="pb-2 border-bottom">From our socials</h2>
+      <div class="row pt-4">
+        <a
+          class="twitter-timeline"
+          data-width="500"
+          data-height="500"
+          data-theme="light"
+          href="https://twitter.com/vertexracingf1?ref_src=twsrc%5Etfw"
+          >Tweets by vertexracingf1</a
+        >
+      </div>
+    </div>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  head() {
+    return {
+      script: [
+        {
+          src: 'https://platform.twitter.com/widgets.js',
+          body: true,
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style>
 html {

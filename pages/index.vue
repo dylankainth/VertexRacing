@@ -47,9 +47,9 @@
           developing a CAM machined foam car.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+          <nuxt-link type="button" class="btn btn-primary btn-lg px-4 gap-3" to="about">
             Meet the team
-          </button>
+          </nuxt-link>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">
             View the car
           </button>
