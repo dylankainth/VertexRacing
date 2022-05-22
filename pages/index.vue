@@ -33,7 +33,7 @@
       </div>
     </div>
     <div v-else>
-      <img class="mover" src="~/assets/vertex2d.PNG" />
+      <img class="mover" src="~/assets/vertex2d.PNG" alt="car" />
     </div>
 
     <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
@@ -132,9 +132,9 @@
       <h2 class="pb-2 border-bottom">Our Sponsors</h2>
       <div class="row pt-4">
         <div class="col-lg-6">
-          <a href="https://www.3dprint-uk.co.uk/">
+          <nuxt-link to="https://www.3dprint-uk.co.uk/">
             <img src="~/assets/3dprintuk-logo-1.webp" />
-          </a>
+          </nuxt-link>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
       </div>

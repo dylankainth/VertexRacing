@@ -1,103 +1,52 @@
 <template>
-  <div>
-    <footer class="pt-4 my-md-5 pt-md-5 border-top"></footer>
-  </div>
-  <!--
   <div class="container">
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      <div class="row">
-        <div class="col-12 col-md">
-          <img
-            class="mb-2"
-            src="/docs/5.1/assets/brand/bootstrap-logo.svg"
-            alt=""
-            width="24"
-            height="19"
-          />
-          <small class="d-block mb-3 text-muted">© 2017–2021</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Cool stuff</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Random feature</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Team feature</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Stuff for developers</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Another one</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Last time</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Resource</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Resource name</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Another resource</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Final resource</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#">Team</a>
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Locations</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#"
-                >Privacy</a
-              >
-            </li>
-            <li class="mb-1">
-              <a class="link-secondary text-decoration-none" href="#">Terms</a>
-            </li>
-          </ul>
-        </div>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2022, Vertex Racing</span>
       </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="https://twitter.com/vertexracingf1"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.instagram.com/vertexracingf1/"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="text-muted"
+            href="https://www.linkedin.com/company/vertex-racing/"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-  </div>-->
+  </div>
 </template>
+
+<script>
+export default {
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css',
+      },
+    ],
+  },
+}
+</script>

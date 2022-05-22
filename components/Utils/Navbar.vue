@@ -29,6 +29,9 @@
           <nuxt-link to="/about" class="nav-link px-3">ABOUT US</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/gallery" class="nav-link px-3">GALLERY</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/contact" class="nav-link px-3">CONTACT</nuxt-link>
         </li>
       </ul>
@@ -37,10 +40,10 @@
 </template>
 
 <style scoped>
-nav-link {
+.nav-link {
   font-weight: 300;
   font-size: medium;
-  color: rgb(173, 173, 173);
+  color: #767676;
 }
 
 .nuxt-link-exact-active {
