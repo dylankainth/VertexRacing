@@ -54,9 +54,10 @@
           >
             Meet the team
           </nuxt-link>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            View the car
-          </button>
+          <nuxt-link type="button" class="btn btn-outline-secondary btn-lg px-4"
+          to="gallery">
+            View Gallery
+          </nuxt-link>
         </div>
       </div>
     </div>
