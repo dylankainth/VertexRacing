@@ -188,7 +188,7 @@ export default {
         {
           name: 'Andrew',
           image: 'andrew.png',
-          shortDescriptor: `Andrew is awesome`,
+          shortDescriptor: `Andrew is awesome, but he hasn't given a self-description to Dylan yet :(`,
           longDescriptor: `June is from South Korean student with a passion for Medicine and
             essay writing. Therefore, he joined the team to transfer his research and
             persuasive skills to the benefit of Vertex Racing. He leads, manages
