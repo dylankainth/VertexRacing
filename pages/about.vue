@@ -1,23 +1,6 @@
 <template>
   <div id="app">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-3" data-aos="fade-left">
-          <h1 class="display-3 fw-bold lh-1 mb-3">About</h1>
-          <p class="lead">About the team</p>
-        </div>
-        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-right">
-          <img
-            src="~/assets/aboutpage.PNG"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Vertex Car"
-            width="auto"
-            height="1000px"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
+    <UtilsHeader title="About" descriptor="About the team" image="about" />
 
     <div class="container">
       <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
@@ -41,7 +24,7 @@
     >
       <h2 class="pb-2 border-bottom">Meet the team</h2>
       <div class="row pt-4">
-        <div class="col-lg-4" v-for="member in members">
+        <div class="col-lg-4" v-for="member in members" :key="member.name">
           <img
             loading="lazy"
             :src="require(`~/assets/faces/${member.image}`)"
@@ -77,7 +60,11 @@
     >
       <h2 class="pb-2 border-bottom">Collaborators</h2>
       <div class="row pt-4">
-        <div class="col-lg-4" v-for="collaborator in collaborators">
+        <div
+          class="col-lg-4"
+          v-for="collaborator in collaborators"
+          :key="collaborator.name"
+        >
           <a :href="collaborator.link">
             <img
               loading="lazy"

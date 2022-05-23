@@ -1,28 +1,16 @@
 <template>
   <div id="app">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-3" data-aos="fade-left">
-          <h1 class="display-3 fw-bold lh-1 mb-3">Gallery</h1>
-          <p class="lead">Check out the Gallery</p>
-        </div>
-        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-right">
-          <img
-            src="~/assets/gallerypage.PNG"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Vertex Car"
-            width="auto"
-            height="1000px"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
+    <UtilsHeader
+      title="Gallery"
+      descriptor="View the gallery"
+      image="gallery"
+    />
 
     <div class="container">
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div class="col" v-for="image in images">
+        <div class="col" v-for="image in images" :key="image">
           <div
+            loading="lazy"
             class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
             :style="
               'background-image: url(' +

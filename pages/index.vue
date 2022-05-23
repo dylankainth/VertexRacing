@@ -1,15 +1,10 @@
 <template>
   <div id="app">
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-left">
           <img
-            src="~/assets/vertexbanner.PNG"
+            src="~/assets/homepage.png"
             class="d-block mx-lg-auto img-fluid"
             alt="Vertex Car"
             width="auto"
@@ -27,13 +22,8 @@
       </div>
     </div>
 
-    <div v-if="!Mobile">
-      <div class="container2" id="container2">
-        <img class="mover" id="car" src="~/assets/vertex2d.PNG" />
-      </div>
-    </div>
-    <div v-else>
-      <img class="mover" src="~/assets/vertex2d.PNG" alt="car" />
+    <div class="movercontainer" id="movercontainer">
+      <img class="mover" id="car" src="~/assets/vertex2d.png" />
     </div>
 
     <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
@@ -54,8 +44,11 @@
           >
             Meet the team
           </nuxt-link>
-          <nuxt-link type="button" class="btn btn-outline-secondary btn-lg px-4"
-          to="gallery">
+          <nuxt-link
+            type="button"
+            class="btn btn-outline-secondary btn-lg px-4"
+            to="gallery"
+          >
             View Gallery
           </nuxt-link>
         </div>
@@ -133,9 +126,9 @@
       <h2 class="pb-2 border-bottom">Our Sponsors</h2>
       <div class="row pt-4">
         <div class="col-lg-6">
-          <nuxt-link to="https://www.3dprint-uk.co.uk/">
-            <img src="~/assets/3dprintuk-logo-1.webp" />
-          </nuxt-link>
+          <a href="https://www.3dprint-uk.co.uk/">
+            <img src="~/assets/3dprintuk-logo-1.webp" class="w-100" />
+          </a>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
       </div>
@@ -145,21 +138,18 @@
 
 <script>
 export default {
-  methods: {
-    isMobile() {
-      if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
-        )
-      ) {
-        return true
-      } else {
-        return false
-      }
-    },
+  head() {
+    return {
+      link: [
+        {
+          href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+          rel: 'stylesheet',
+        },
+      ],
+    }
   },
   mounted() {
-    var container = document.getElementById('container')
+    var container = document.getElementById('movercontainer')
     var windowHeight = window.innerHeight
     var windowWidth = window.innerWidth
     var scrollArea = windowHeight
@@ -173,31 +163,29 @@ export default {
       var scrollTop = window.pageYOffset || window.scrollTop
       var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132
 
-      console.log(scrollPercent)
-
       //car.style.left = scrollPercent * window.innerWidth + 'px'
 
       car.style.left =
         windowWidth - scrollPercent * window.innerWidth * 0.9 + 'px'
       //console.log(car.style.left)
     })
-
-    this.Mobile = this.isMobile()
-  },
-  data() {
-    return {
-      Mobile: null,
-    }
   },
 }
 </script>
 
 <style>
-html {
-  overflow-x: hidden;
+@media screen and (max-width: 600px) {
+  .movercontainer {
+    display: none;
+  }
 }
 
-.container2 {
+html,
+body {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.movercontainer {
   width: 100%;
   height: 300px;
 }
