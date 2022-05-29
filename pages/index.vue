@@ -23,7 +23,7 @@
     </div>
 
     <div class="movercontainer" id="movercontainer">
-      <img class="mover" id="car" src="~/assets/vertex2d.png" />
+      <img class="mover" id="car" src="~/assets/vertex2d.PNG" />
     </div>
 
     <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
