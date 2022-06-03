@@ -266,8 +266,7 @@ html {
 }
 
 .face {
-  width: 23vw;
-  height: 23vw;
+  width: 100%;
   background-size: cover;
 }
 </style>
