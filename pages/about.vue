@@ -175,17 +175,8 @@ export default {
         {
           name: 'Andrew',
           image: 'andrew.png',
-          shortDescriptor: `Andrew is awesome, but he hasn't given a self-description to Dylan yet :(`,
-          longDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing. Therefore, he joined the team to transfer his research and
-            persuasive skills to the benefit of Vertex Racing. He leads, manages
-            and organises the team to all it to achieve its goals. He is also in
-            charge of the production of the team portfolios (Enterprise and
-            Research & Development) and pit display on Adobe Illustrator and
-            InDesign, as well as the maintenance of the company email and
-            website. When he has spare time, June also runs fluid simulations of
-            the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.`,
+          shortDescriptor: `Andrew is the happy and friendly everybody's man. He manages sponsorship and liases with companies via email.`,
+          longDescriptor: `Andrew is the happy and friendly everybody's man. He runs the Vertex Team email account, query form, and the sponsor excel sheet, ensuring that the team sends the correct sponsorship portfolio or sponsorship package to the relevant companies. He is in charge of replying to any queries and, if necessary, forwarding them on to the Team Manager or any other team members.`,
         },
         {
           name: 'Justin',
