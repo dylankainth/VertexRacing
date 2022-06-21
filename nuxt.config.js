@@ -15,12 +15,8 @@ export default {
         content:
           'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
       },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Vertex Racing is an F1 in schools team from London, UK' },
       { name: 'format-detection', content: 'telephone=no' },
-      {
-        name: 'description',
-        content: 'Vertex Racing is an F1 in schools team from London, UK',
-      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
