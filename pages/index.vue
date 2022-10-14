@@ -2,10 +2,10 @@
   <div id="app">
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-9" data-aos="fade-left">
+        <div class="col-10 col-sm-8 col-lg-9 autocol" data-aos="fade-left">
           <img
             src="~/assets/homepage.png"
-            class="d-block mx-lg-auto img-fluid"
+            class="d-block mx-auto img-fluid"
             alt="Vertex Car"
             width="auto"
             height="1000px"
@@ -13,8 +13,10 @@
           />
         </div>
         <div class="col-lg-3" data-aos="fade-right">
-          <h1 class="display-3 fw-bold lh-1 mb-3">Vertex Racing</h1>
-          <p class="lead">
+          <h1 class="display-3 fw-bold lh-1 mb-3 text-center text-lg-start">
+            Vertex Racing
+          </h1>
+          <p class="lead text-center text-lg-start">
             We are Vertex, <br />
             We are speed.
           </p>
@@ -99,9 +101,9 @@
       <h1 class="display-4 fw-bold">Our Success</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">
-          We have achieved 3rd Place finish out of 10 competitors in the London
-          North Development Class Competition, and are preparing to participate
-          in the UK National Finals this coming October.
+          In the 2021 season, we achieved 3rd Place finish out of 10 competitors
+          in the London North Development Class Competition, and competed in the
+          national finals in October.
         </p>
       </div>
       <div class="overflow-hidden" style="max-height: 30vh">
@@ -115,6 +117,13 @@
             loading="lazy"
           />
         </div>
+      </div>
+      <div class="col-lg-6 mx-auto my-3">
+        <p class="lead mb-4">
+          In the 2022 season, we achieved 3rd Place in the London North
+          Development Class Competition, and are now preparing to compete in the
+          UK finals in February 2023
+        </p>
       </div>
     </div>
 
@@ -235,5 +244,9 @@ body {
 .btn-primary:link {
   background-color: #c56c00;
   border-color: #c56c00;
+}
+
+.autocol {
+  margin: auto;
 }
 </style>

@@ -87,4 +87,5 @@ export default {
       Poppins: true,
     },
   },
+  ssr: false,
 }
