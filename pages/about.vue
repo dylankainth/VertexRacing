@@ -23,19 +23,22 @@
       data-aos="zoom-in-up"
     >
       <h2 class="pb-2 border-bottom">Meet the team</h2>
+
       <div class="row pt-4">
         <div class="col-lg-4" v-for="member in members" :key="member.name">
-          <img
-            loading="lazy"
-            :src="require(`~/assets/faces/${member.image}`)"
-            class="img rounded-circle face"
-            alt="..."
-          />
+          <a :href="member.url" style="text-decoration: none; color: black">
+            <img
+              loading="lazy"
+              :src="require(`~/assets/faces/${member.image}`)"
+              class="img rounded-circle face"
+              alt="..."
+            />
 
-          <h2 class="pt-3">{{ member.name }}</h2>
-          <p>
-            {{ member.shortDescriptor }}
-          </p>
+            <h2 class="pt-3">{{ member.name }}</h2>
+            <p>
+              {{ member.shortDescriptor }}
+            </p>
+          </a>
         </div>
       </div>
     </div>
@@ -129,6 +132,7 @@ export default {
         {
           name: 'June',
           image: 'june.png',
+          url: 'https://mezzotravell.wordpress.com',
           shortDescriptor: `June is from South Korean student with a passion for Medicine and
             essay writing.`,
           longDescriptor: `June is from South Korean student with a passion for Medicine and
@@ -145,6 +149,7 @@ export default {
         {
           name: 'Dylan',
           image: 'dylan.png',
+          url: 'https://www.dylankainth.com',
           shortDescriptor: `Dylan is a tech enthusiast from London, UK; In his free time, he enjoys microelectronics and programming.`,
           longDescriptor: `June is from South Korean student with a passion for Medicine and
             essay writing. Therefore, he joined the team to transfer his research and
@@ -160,6 +165,7 @@ export default {
         {
           name: 'Vincent',
           image: 'vincent.png',
+          url: 'https://perceptronv.github.io/',
           shortDescriptor: `Vincent loves anything AI, physics and design related. He joined Vertex with the hope of building a car to break the 1s barrier.`,
           longDescriptor: `June is from South Korean student with a passion for Medicine and
             essay writing. Therefore, he joined the team to transfer his research and
