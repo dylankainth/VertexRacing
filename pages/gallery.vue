@@ -67,6 +67,7 @@ export default {
   mounted() {
     this.importAll(require.context('../assets/gallery/', true, /\.jpg$/))
     this.importAll(require.context('../assets/gallery/', true, /\.gif$/))
+	this.importAll(require.context('../assets/gallery/', true, /\.png$/))
     this.importAll(require.context('../assets/gallery/', true, /\.PNG$/))
     this.importAll(require.context('../assets/gallery/', true, /\.webp$/))
   },
