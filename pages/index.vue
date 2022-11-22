@@ -164,7 +164,7 @@
         </div>
         <div class="col-lg-6">
           <a>
-            <img src="~/assets/gifnet.png" class="w-100" />
+            <img src="~/assets/giftnet.png" class="w-100" />
           </a>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
@@ -176,7 +176,12 @@
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
 
-
+        <div class="col-lg-6">
+          <a>
+            <img src="~/assets/theupharm.png" class="w-100" />
+          </a>
+          <h3 class="pt-3">Platinum Sponsor</h3>
+        </div>
       </div>
     </div>
   </div>
