@@ -138,8 +138,51 @@
           <a href="https://www.3dprint-uk.co.uk/">
             <img src="~/assets/3dprintuk-logo-1.webp" class="w-100" />
           </a>
+          <h3 class="pt-3">Headline Sponsor</h3>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container px-4 py-5 marketing"
+      id="featured-3"
+      data-aos="zoom-in-up"
+    >
+      <h2 class="pb-2 border-bottom">Our Sponsors</h2>
+      <div class="row pt-4">
+        <div class="col-lg-6">
+          <a>
+            <img src="~/assets/AREUM_LOGO.png" class="w-100" />
+          </a>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
+        <div class="col-lg-6">
+          <a href="https://heusinkveld.com/">
+            <img src="~/assets/Heusinkveld.webp" class="w-100" />
+          </a>
+          <h3 class="pt-3">Platinum Sponsor</h3>
+        </div>
+        <div class="col-lg-6">
+          <a>
+            <img src="~/assets/gifnet.png" class="w-100" />
+          </a>
+          <h3 class="pt-3">Platinum Sponsor</h3>
+        </div>
+
+        <div class="col-lg-6">
+          <a>
+            <img src="~/assets/samsungrehab.PNG" class="w-100" />
+          </a>
+          <h3 class="pt-3">Platinum Sponsor</h3>
+        </div>
+
+        <div class="col-lg-6">
+          <a>
+            <img src="~/assets/samsungrehab.PNG" class="w-100" />
+          </a>
+          <h3 class="pt-3">Platinum Sponsor</h3>
+        </div>
+
       </div>
     </div>
   </div>
@@ -151,35 +194,35 @@ export default {
     return {
       link: [
         {
-          href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
-          rel: 'stylesheet',
+          href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+          rel: "stylesheet",
         },
       ],
-    }
+    };
   },
   mounted() {
-    var container = document.getElementById('movercontainer')
-    var windowHeight = window.innerHeight
-    var windowWidth = window.innerWidth
-    var scrollArea = windowHeight
-    var car = document.getElementById('car')
+    var container = document.getElementById("movercontainer");
+    var windowHeight = window.innerHeight;
+    var windowWidth = window.innerWidth;
+    var scrollArea = windowHeight;
+    var car = document.getElementById("car");
 
     car.style.left =
-      windowWidth - 0.025755879059350503 * window.innerWidth * 0.9 + 'px'
+      windowWidth - 0.025755879059350503 * window.innerWidth * 0.9 + "px";
 
     // update position of square 1 and square 2 when scroll event fires.
-    window.addEventListener('scroll', function () {
-      var scrollTop = window.pageYOffset || window.scrollTop
-      var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132
+    window.addEventListener("scroll", function () {
+      var scrollTop = window.pageYOffset || window.scrollTop;
+      var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132;
 
       //car.style.left = scrollPercent * window.innerWidth + 'px'
 
       car.style.left =
-        windowWidth - scrollPercent * window.innerWidth * 0.9 + 'px'
+        windowWidth - scrollPercent * window.innerWidth * 0.9 + "px";
       //console.log(car.style.left)
-    })
+    });
   },
-}
+};
 </script>
 
 <style>

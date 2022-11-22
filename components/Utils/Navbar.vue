@@ -12,7 +12,7 @@
           width="50"
           height="50"
           role="img"
-          src="~assets/logo.png"
+          src="/logo.png"
           aria-label="Logo"
         />
         <span class="fs-2" style="font-weight: 100">VERTEX RACING</span>
