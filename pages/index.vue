@@ -176,12 +176,6 @@
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
 
-        <div class="col-lg-6">
-          <a>
-            <img src="~/assets/samsungrehab.PNG" class="w-100" />
-          </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
-        </div>
 
       </div>
     </div>
