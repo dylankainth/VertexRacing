@@ -141,7 +141,7 @@
               class="w-100 sponsorlogo"
             />
           </a>
-          <h3 class="pt-3">Headline Sponsor</h3>
+          <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
       </div>
     </div>
@@ -157,33 +157,33 @@
           <a>
             <img src="~/assets/AREUM_LOGO.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
+          <h3 class="pt-3">Silver Sponsor</h3>
         </div>
         <div class="col-lg-6">
           <a href="https://heusinkveld.com/">
             <img src="~/assets/Heusinkveld.webp" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
+          <h3 class="pt-3">Bronze Sponsor</h3>
         </div>
         <div class="col-lg-6">
           <a>
             <img src="~/assets/giftnet.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
+          <h3 class="pt-3">Bronze Sponsor</h3>
         </div>
 
         <div class="col-lg-6">
           <a>
             <img src="~/assets/samsungrehab.PNG" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
+          <h3 class="pt-3">Bronze Sponsor</h3>
         </div>
 
         <div class="col-lg-6">
           <a>
             <img src="~/assets/theupharm.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Platinum Sponsor</h3>
+          <h3 class="pt-3">Bronze Sponsor</h3>
         </div>
       </div>
     </div>
