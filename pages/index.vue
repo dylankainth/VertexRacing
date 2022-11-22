@@ -157,13 +157,13 @@
           <a>
             <img src="~/assets/AREUM_LOGO.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Silver Sponsor</h3>
+          <h3 class="pt-3">Bronze Sponsor</h3>
         </div>
         <div class="col-lg-6">
           <a href="https://heusinkveld.com/">
             <img src="~/assets/Heusinkveld.webp" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Silver Sponsor</h3>
         </div>
         <div class="col-lg-6">
           <a>
