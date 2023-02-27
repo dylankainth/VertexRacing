@@ -129,75 +129,72 @@ export default {
         },
       ],
       members: [
-        {
-          name: 'June',
-          image: 'june.png',
-          url: 'https://mezzotravell.wordpress.com',
-          shortDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing.`,
-          longDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing. Therefore, he joined the team to transfer his research and
-            persuasive skills to the benefit of Vertex Racing. He leads, manages
-            and organises the team to all it to achieve its goals. He is also in
-            charge of the production of the team portfolios (Enterprise and
-            Research & Development) and pit display on Adobe Illustrator and
-            InDesign, as well as the maintenance of the company email and
-            website. When he has spare time, June also runs fluid simulations of
-            the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.`,
-        },
-        {
-          name: 'Dylan',
-          image: 'dylan.png',
-          url: 'https://www.dylankainth.com',
-          shortDescriptor: `Dylan is a tech enthusiast from London, UK; In his free time, he enjoys microelectronics and programming.`,
-          longDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing. Therefore, he joined the team to transfer his research and
-            persuasive skills to the benefit of Vertex Racing. He leads, manages
-            and organises the team to all it to achieve its goals. He is also in
-            charge of the production of the team portfolios (Enterprise and
-            Research & Development) and pit display on Adobe Illustrator and
-            InDesign, as well as the maintenance of the company email and
-            website. When he has spare time, June also runs fluid simulations of
-            the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.`,
-        },
-        {
-          name: 'Vincent',
-          image: 'vincent.png',
-          url: 'https://perceptronv.github.io/',
-          shortDescriptor: `Vincent loves anything AI, physics and design related. He joined Vertex with the hope of building a car to break the 1s barrier.`,
-          longDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing. Therefore, he joined the team to transfer his research and
-            persuasive skills to the benefit of Vertex Racing. He leads, manages
-            and organises the team to all it to achieve its goals. He is also in
-            charge of the production of the team portfolios (Enterprise and
-            Research & Development) and pit display on Adobe Illustrator and
-            InDesign, as well as the maintenance of the company email and
-            website. When he has spare time, June also runs fluid simulations of
-            the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.`,
-        },
+        // {
+        //   name: 'June',
+        //   image: 'june.png',
+        //   url: 'https://mezzotravell.wordpress.com',
+        //   shortDescriptor: `June is from South Korean student with a passion for Medicine and
+        //     essay writing.`,
+        //   longDescriptor: `June is from South Korean student with a passion for Medicine and
+        //     essay writing. Therefore, he joined the team to transfer his research and
+        //     persuasive skills to the benefit of Vertex Racing. He leads, manages
+        //     and organises the team to all it to achieve its goals. He is also in
+        //     charge of the production of the team portfolios (Enterprise and
+        //     Research & Development) and pit display on Adobe Illustrator and
+        //     InDesign, as well as the maintenance of the company email and
+        //     website. When he has spare time, June also runs fluid simulations of
+        //     the car on Solidworks to help Justin maximise the car aerodynamic
+        //     performance.`,
+        // },
+        // {
+        //   name: 'Dylan',
+        //   image: 'dylan.png',
+        //   url: 'https://www.dylankainth.com',
+        //   shortDescriptor: `Dylan is a tech enthusiast from London, UK; In his free time, he enjoys microelectronics and programming.`,
+        //   longDescriptor: `June is from South Korean student with a passion for Medicine and
+        //     essay writing. Therefore, he joined the team to transfer his research and
+        //     persuasive skills to the benefit of Vertex Racing. He leads, manages
+        //     and organises the team to all it to achieve its goals. He is also in
+        //     charge of the production of the team portfolios (Enterprise and
+        //     Research & Development) and pit display on Adobe Illustrator and
+        //     InDesign, as well as the maintenance of the company email and
+        //     website. When he has spare time, June also runs fluid simulations of
+        //     the car on Solidworks to help Justin maximise the car aerodynamic
+        //     performance.`,
+        // },
+        // {
+        //   name: 'Vincent',
+        //   image: 'vincent.png',
+        //   url: 'https://perceptronv.github.io/',
+        //   shortDescriptor: `Vincent loves anything AI, physics and design related. He joined Vertex with the hope of building a car to break the 1s barrier.`,
+        //   longDescriptor: `June is from South Korean student with a passion for Medicine and
+        //     essay writing. Therefore, he joined the team to transfer his research and
+        //     persuasive skills to the benefit of Vertex Racing. He leads, manages
+        //     and organises the team to all it to achieve its goals. He is also in
+        //     charge of the production of the team portfolios (Enterprise and
+        //     Research & Development) and pit display on Adobe Illustrator and
+        //     InDesign, as well as the maintenance of the company email and
+        //     website. When he has spare time, June also runs fluid simulations of
+        //     the car on Solidworks to help Justin maximise the car aerodynamic
+        //     performance.`,
+        // },
         {
           name: 'Andrew',
-          image: 'andrew.png',
+          image: 'andrew-new.jpeg',
           shortDescriptor: `Andrew is the happy and friendly everybody's man. He manages sponsorship and liases with companies via email.`,
           longDescriptor: `Andrew is the happy and friendly everybody's man. He runs the Vertex Team email account, query form, and the sponsor excel sheet, ensuring that the team sends the correct sponsorship portfolio or sponsorship package to the relevant companies. He is in charge of replying to any queries and, if necessary, forwarding them on to the Team Manager or any other team members.`,
         },
         {
           name: 'Justin',
-          image: 'justin.png',
+          image: 'justin-new.jpeg',
           shortDescriptor: `Justin is an F1 enthusiast and swimmer. He enjoys playing videogames and has a passion for engineering.`,
-          longDescriptor: `June is from South Korean student with a passion for Medicine and
-            essay writing. Therefore, he joined the team to transfer his research and
-            persuasive skills to the benefit of Vertex Racing. He leads, manages
-            and organises the team to all it to achieve its goals. He is also in
-            charge of the production of the team portfolios (Enterprise and
-            Research & Development) and pit display on Adobe Illustrator and
-            InDesign, as well as the maintenance of the company email and
-            website. When he has spare time, June also runs fluid simulations of
-            the car on Solidworks to help Justin maximise the car aerodynamic
-            performance.`,
+          longDescriptor: `.`,
+        },
+        {
+          name: 'Luca',
+          image: 'luca.jpeg',
+          shortDescriptor: `Luca is the Team's newest member. He is a passionate engineer and is currently building a wind tunnel for his GCSE Coursework. `,
+          longDescriptor: `.`,
         },
       ],
     }

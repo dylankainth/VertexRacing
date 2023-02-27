@@ -196,35 +196,35 @@ export default {
     return {
       link: [
         {
-          href: "https://fonts.googleapis.com/icon?family=Material+Icons",
-          rel: "stylesheet",
+          href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+          rel: 'stylesheet',
         },
       ],
-    };
+    }
   },
   mounted() {
-    var container = document.getElementById("movercontainer");
-    var windowHeight = window.innerHeight;
-    var windowWidth = window.innerWidth;
-    var scrollArea = windowHeight;
-    var car = document.getElementById("car");
+    var container = document.getElementById('movercontainer')
+    var windowHeight = window.innerHeight
+    var windowWidth = window.innerWidth
+    var scrollArea = windowHeight
+    var car = document.getElementById('car')
 
     car.style.left =
-      windowWidth - 0.025755879059350503 * window.innerWidth * 0.9 + "px";
+      windowWidth - 0.025755879059350503 * window.innerWidth * 0.9 + 'px'
 
     // update position of square 1 and square 2 when scroll event fires.
-    window.addEventListener("scroll", function () {
-      var scrollTop = window.pageYOffset || window.scrollTop;
-      var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132;
+    window.addEventListener('scroll', function () {
+      var scrollTop = window.pageYOffset || window.scrollTop
+      var scrollPercent = scrollTop / scrollArea || 0.0011198208286674132
 
       //car.style.left = scrollPercent * window.innerWidth + 'px'
 
       car.style.left =
-        windowWidth - scrollPercent * window.innerWidth * 0.9 + "px";
+        windowWidth - scrollPercent * window.innerWidth * 0.9 + 'px'
       //console.log(car.style.left)
-    });
+    })
   },
-};
+}
 </script>
 
 <style>
@@ -295,8 +295,8 @@ body {
   margin: auto;
 }
 
-.sponsorlogo{
+.sponsorlogo {
   object-fit: contain;
-  height:100px
+  height: 100px;
 }
 </style>
