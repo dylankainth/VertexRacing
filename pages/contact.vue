@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <UtilsHeader
-      title="Contact"
-      descriptor="Contact the team"
-      image="contact"
-    />
+    <UtilsHeader title="Contact" descriptor="Contact the team" image="about" />
 
     <div class="px-4 py-5 my-5 text-center">
       <h1 class="display-6 fw-bold">Get in touch.</h1>
@@ -23,19 +19,10 @@
     <div class="container px-4 py-5 marketing" id="featured-3">
       <h2 class="pb-2 border-bottom">Enquiries</h2>
       <div class="row pt-4">
-        <iframe
-          width="640px"
-          height="480px"
+        <iframe width="640px" height="480px"
           src="https://forms.office.com/Pages/ResponsePage.aspx?id=UBzjllrT0UicvFq7UcsWiEIssA9j1A5GsW-Uzoc94INUMzEwV0FMWlJNNFlER1AyWTVUWlZDRFlGWC4u&embed=true"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          style="border: none; max-width: 100%; max-height: 100vh"
-          allowfullscreen
-          webkitallowfullscreen
-          mozallowfullscreen
-          msallowfullscreen
-        >
+          frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width: 100%; max-height: 100vh"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
         </iframe>
       </div>
     </div>
@@ -43,14 +30,8 @@
     <div class="container px-4 py-5 marketing" id="featured-3">
       <h2 class="pb-2 border-bottom">From our socials</h2>
       <div class="row pt-4">
-        <a
-          class="twitter-timeline"
-          data-width="500"
-          data-height="500"
-          data-theme="light"
-          href="https://twitter.com/vertexracingf1?ref_src=twsrc%5Etfw"
-          >Tweets by vertexracingf1</a
-        >
+        <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light"
+          href="https://twitter.com/vertexracingf1?ref_src=twsrc%5Etfw">Tweets by vertexracingf1</a>
       </div>
     </div>
   </div>
@@ -95,14 +76,17 @@ html {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
+
 .marketing .col-lg-6 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;

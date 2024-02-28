@@ -17,22 +17,14 @@
       </div>
     </div>
 
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
+    <div class="container px-4 py-5 marketing" id="featured-3" data-aos="zoom-in-up">
       <h2 class="pb-2 border-bottom">Meet the team</h2>
 
       <div class="row pt-4">
         <div class="col-lg-4" v-for="member in members" :key="member.name">
           <a :href="member.url" style="text-decoration: none; color: black">
-            <img
-              loading="lazy"
-              :src="require(`~/assets/faces/${member.image}`)"
-              class="img rounded-circle face"
-              alt="..."
-            />
+            <img loading="lazy" :src="require(`~/assets/faces/${member.image}`)" class="img rounded-circle face"
+              alt="..." />
 
             <h2 class="pt-3">{{ member.name }}</h2>
             <p>
@@ -43,52 +35,6 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
-        <h1 class="display-6 fw-bold">
-          We Joined FLEVAH, An International F1 in Schools Collaboration
-        </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            FLEVAH is a collaboration of six teams from around the world.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
-      <h2 class="pb-2 border-bottom">Collaborators</h2>
-      <div class="row pt-4">
-        <div
-          class="col-lg-4"
-          v-for="collaborator in collaborators"
-          :key="collaborator.name"
-        >
-          <a :href="collaborator.link">
-            <img
-              loading="lazy"
-              :src="require(`~/assets/collaboratorlogos/${collaborator.image}`)"
-              class="img rounded-circle face"
-              alt="..."
-            />
-          </a>
-
-          <h2 class="pt-3">{{ collaborator.name }}</h2>
-          <p>
-            <img
-              style="width: 50px; height: auto"
-              :src="
-                require(`~/assets/collaboratorlogos/flags/${collaborator.flag}`)
-              "
-            />
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -226,14 +172,17 @@ html {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
+
 .marketing .col-lg-6 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;

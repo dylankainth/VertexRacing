@@ -3,14 +3,8 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-9 autocol" data-aos="fade-left">
-          <img
-            src="~/assets/homepage.png"
-            class="d-block mx-auto img-fluid"
-            alt="Vertex Car"
-            width="auto"
-            height="1000px"
-            loading="lazy"
-          />
+          <img src="~/assets/Isometric.png" class="d-block mx-auto img-fluid" alt="Vertex Car" width="auto"
+            height="1000px" loading="lazy" />
         </div>
         <div class="col-lg-3" data-aos="fade-right">
           <h1 class="display-3 fw-bold lh-1 mb-3 text-center text-lg-start">
@@ -25,8 +19,11 @@
     </div>
 
     <div class="movercontainer" id="movercontainer">
-      <img class="mover" id="car" src="~/assets/vertex2d.PNG" />
+      <img class="mover" id="car" src="~/assets/Side-Car.png" />
     </div>
+
+    <br>
+    <br>
 
     <div class="px-4 py-5 my-5 text-center" data-aos="zoom-in-up">
       <h1 class="display-5 fw-bold">
@@ -39,29 +36,17 @@
           developing a CAM machined foam car.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <nuxt-link
-            type="button"
-            class="btn btn-primary btn-lg px-4 gap-3"
-            to="about"
-          >
+          <nuxt-link type="button" class="btn btn-primary btn-lg px-4 gap-3" to="about">
             Meet the team
           </nuxt-link>
-          <nuxt-link
-            type="button"
-            class="btn btn-outline-secondary btn-lg px-4"
-            to="gallery"
-          >
+          <nuxt-link type="button" class="btn btn-outline-secondary btn-lg px-4" to="gallery">
             View Gallery
           </nuxt-link>
         </div>
       </div>
     </div>
 
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
+    <div class="container px-4 py-5 marketing" id="featured-3" data-aos="zoom-in-up">
       <h2 class="pb-2 border-bottom">Our Values</h2>
       <div class="row pt-4">
         <div class="col-lg-4">
@@ -108,14 +93,8 @@
       </div>
       <div class="overflow-hidden" style="max-height: 30vh">
         <div class="container px-5">
-          <img
-            src="~/assets/vertex-racing-podium.webp"
-            class="img-fluid border rounded-3 shadow-lg mb-4"
-            alt="Example image"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
+          <img src="~/assets/vertex-racing-podium.webp" class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image" width="700" height="500" loading="lazy" />
         </div>
       </div>
       <div class="col-lg-6 mx-auto my-3">
@@ -127,64 +106,44 @@
       </div>
     </div>
 
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
+    <div class="container px-4 py-5 marketing" id="featured-3" data-aos="zoom-in-up">
       <h2 class="pb-2 border-bottom">Our Sponsors</h2>
       <div class="row pt-4">
         <div class="col-lg-6">
           <a href="https://www.3dprint-uk.co.uk/">
-            <img
-              src="~/assets/3dprintuk-logo-1.webp"
-              class="w-100 sponsorlogo"
-            />
+            <img src="~/assets/3dprintuk-logo-1.webp" class="w-100 sponsorlogo" />
           </a>
           <h3 class="pt-3">Platinum Sponsor</h3>
         </div>
       </div>
     </div>
 
-    <div
-      class="container px-4 py-5 marketing"
-      id="featured-3"
-      data-aos="zoom-in-up"
-    >
+    <div class="container px-4 py-5 marketing" id="featured-3" data-aos="zoom-in-up">
       <h2 class="pb-2 border-bottom">Our Sponsors</h2>
       <div class="row pt-4">
+
+
         <div class="col-lg-6">
           <a>
-            <img src="~/assets/AREUM_LOGO.png" class="w-100 sponsorlogo" />
+            <img src="~/assets/fmt-aero.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
-        </div>
-        <div class="col-lg-6">
-          <a href="https://heusinkveld.com/">
-            <img src="~/assets/Heusinkveld.webp" class="w-100 sponsorlogo" />
-          </a>
-          <h3 class="pt-3">Silver Sponsor</h3>
-        </div>
-        <div class="col-lg-6">
-          <a>
-            <img src="~/assets/giftnet.png" class="w-100 sponsorlogo" />
-          </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
 
         <div class="col-lg-6">
           <a>
-            <img src="~/assets/samsungrehab.PNG" class="w-100 sponsorlogo" />
+            <img src="~/assets/pacific.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
 
         <div class="col-lg-6">
           <a>
-            <img src="~/assets/theupharm.png" class="w-100 sponsorlogo" />
+            <img src="~/assets/PPM-logo.png" class="w-100 sponsorlogo" />
           </a>
-          <h3 class="pt-3">Bronze Sponsor</h3>
+          <h3 class="pt-3">Gold Sponsor</h3>
         </div>
+
       </div>
     </div>
   </div>
@@ -239,6 +198,7 @@ body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
+
 .movercontainer {
   width: 100%;
   height: 300px;
@@ -258,14 +218,17 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
+
 .marketing .col-lg-6 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
